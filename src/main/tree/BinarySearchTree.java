@@ -40,7 +40,7 @@ public class BinarySearchTree implements Tree {
     @Override
     public int minimo() {
         if (raiz == null) {
-            throw new NoSuchElementException("A árvore está vazia");
+            throw new NoSuchElementException("");
         }
         return minimo(raiz);
     }
